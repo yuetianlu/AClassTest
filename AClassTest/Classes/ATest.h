@@ -10,4 +10,5 @@
 
 @interface ATest : NSObject
 +(void)showA;
++(void)showA2;
 @end

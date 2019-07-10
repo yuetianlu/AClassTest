@@ -14,5 +14,8 @@
 {
     NSLog(@"我是A");
 }
-
++(void)showA2
+{
+    NSLog(@"我是A2");
+}
 @end
