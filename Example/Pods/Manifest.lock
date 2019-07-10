@@ -1,0 +1,16 @@
+PODS:
+  - AClassTest (0.1.0)
+
+DEPENDENCIES:
+  - AClassTest (from `../`)
+
+EXTERNAL SOURCES:
+  AClassTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AClassTest: 49e7396cd2262b07dd88dd5689475330a3d067e1
+
+PODFILE CHECKSUM: 5e32038cf577249b4a106933eb9384070025ef10
+
+COCOAPODS: 1.6.1
