@@ -22,7 +22,7 @@ pod 'AClassTest'
 
 ## Author
 
-yuetianlu_kyy@163.com, tianluyue@creditease.cn
+yuetianlu_kyy@163.com
 
 ## License
 
