@@ -7,6 +7,7 @@
 //
 
 #import "TLViewController.h"
+#import "ATest.h"
 
 @interface TLViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [ATest showA];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
