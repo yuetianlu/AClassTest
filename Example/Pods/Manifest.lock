@@ -1,5 +1,5 @@
 PODS:
-  - AClassTest (0.1.3)
+  - AClassTest (0.1.5)
 
 DEPENDENCIES:
   - AClassTest (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AClassTest: 7c767c257e98ccee117274f2a9405dc0e81a9292
+  AClassTest: 74a92b9e95655640d37b2b6f4af0ab7bd61f55aa
 
 PODFILE CHECKSUM: 5e32038cf577249b4a106933eb9384070025ef10
 

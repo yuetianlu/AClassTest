@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AClassTest.h"
 #import "ATest.h"
 
 FOUNDATION_EXPORT double AClassTestVersionNumber;
