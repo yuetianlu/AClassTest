@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AClassTest/Classes/**/*'
-  s.resource = ['AClassTest/Assets/**/*{xib,xcassets,storyboard}']
+  #s.resource = ['AClassTest/Assets/**/*{xib,xcassets,storyboard}']
   s.resource_bundles = {
      'AClassTest' => ['AClassTest/Assets/**/*{xib,xcassets,storyboard}']
   }
