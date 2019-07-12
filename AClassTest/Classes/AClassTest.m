@@ -12,7 +12,10 @@
 + (UIImage *)imageNamed:(NSString *)imageName
 {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    UIImage *image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    UIImage *image;
+    if (bundle) {
+        image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    }
     return image?:[UIImage imageNamed:@""];
 }
 
