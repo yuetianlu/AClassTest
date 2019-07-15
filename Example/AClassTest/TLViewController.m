@@ -8,7 +8,6 @@
 
 #import "TLViewController.h"
 #import "ATest.h"
-#import "AClassTest.h"
 
 @interface TLViewController ()
 
@@ -20,9 +19,9 @@
 {
     [super viewDidLoad];
     [ATest showA];
-    [ATest showA2];
+    
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.image = [AClassTest imageNamed:@"arrow_down"];
+    imageView.image = [UIImage imageNamed:@"arrow_down"];
     imageView.frame = CGRectMake(100, 100, 20, 20);
     [self.view addSubview:imageView];
 	// Do any additional setup after loading the view, typically from a nib.

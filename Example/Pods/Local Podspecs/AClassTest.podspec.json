@@ -1,6 +1,6 @@
 {
   "name": "AClassTest",
-  "version": "0.1.7",
+  "version": "0.1.5",
   "summary": "A short description of AClassTest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yuetianlu/AClassTest.git",
@@ -13,12 +13,15 @@
   },
   "source": {
     "git": "https://github.com/yuetianlu/AClassTest.git",
-    "tag": "0.1.7"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "AClassTest/Classes/**/*",
+  "resources": [
+    "AClassTest/Assets/**/*{xib,xcassets,storyboard}"
+  ],
   "resource_bundles": {
     "AClassTest": [
       "AClassTest/Assets/**/*{xib,xcassets,storyboard}"
