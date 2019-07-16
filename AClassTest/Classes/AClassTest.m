@@ -11,10 +11,17 @@
 
 + (UIImage *)imageNamed:(NSString *)imageName
 {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     UIImage *image;
-    if (bundle) {
-        image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
+    NSBundle *mainBundle = [NSBundle bundleForClass:[self class]];
+    
+    // Check to see if the resource bundle exists inside the top level bundle
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[mainBundle pathForResource:@"AClassTest" ofType:@"bundle"]];
+    
+    if (resourcesBundle == nil) {
+        resourcesBundle = mainBundle;
+    }
+    if (resourcesBundle) {
+        image = [UIImage imageNamed:imageName inBundle:resourcesBundle compatibleWithTraitCollection:nil];
     }
     return image?:[UIImage imageNamed:@""];
 }
