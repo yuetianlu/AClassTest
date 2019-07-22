@@ -22,7 +22,7 @@ from git import Repo
 
 currentDir = os.getcwd()   #当前路径
 repo = Repo(currentDir)    #GitPython 操作git相关
-privateRepoURL = 'https://github.com/yuetianlu/AClassTest.git'   #私有库url
+privateRepoURL = 'https://github.com/yuetianlu/MySpec.git'   #私有库url
 oldVersion = ''    #选择的spec的version
 tagPrefix = ''  #选择的spec的tag前缀
 newVersion = '' #输入输入的新version
