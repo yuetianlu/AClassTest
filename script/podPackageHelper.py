@@ -89,7 +89,7 @@ def getRepoInfo():
             repoName = repoNames[index]
     if(repoName == ''):
         #当前环境没有specLibrary，直接添加
-        repoName = 'yrd_common_util_spec'
+        repoName = 'MySpec'
         subprocess.getoutput('pod repo add %s %s' %(repoName,privateRepoURL))
     print('repo name : %s' %(repoName))
     return repoName
